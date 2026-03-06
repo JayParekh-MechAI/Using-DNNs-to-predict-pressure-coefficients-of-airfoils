@@ -27,7 +27,7 @@ This dissertation investigates the application of Deep Neural Networks (DNN) to 
 ## 📄 Project Documentation
 * [**Main Dissertation Report (PDF)**](Main%20Report.pdf) – Complete 100+ page thesis covering literature review, methodology, and results.
 * [**Project Logbook (PDF)**](Logbook.pdf) – A chronological record of the 20+ week research and development process.
-* [**Presentation & Viva (PDF/PPTX)**](Presentation%20and%20Viva.pdf) – Summary of the findings presented to the academic board.
+* [**Presentation & Viva (PPTX)**](Presentation%20and%20Viva.pptx) – Summary of the findings presented to the academic board.
 
 ---
 **Core Skills:** Artificial Neural Networks (ANN), Fluid Mechanics, Python Programming, Aerodynamic Analysis, Data Pre-processing.
