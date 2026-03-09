@@ -19,15 +19,32 @@ This dissertation investigates the application of Deep Neural Networks (DNN) to 
 
 ## 📊 Methodology & Logic
 1. **Data Acquisition:** Generated pressure coefficient data for 2D airfoils at a 6.5° angle of attack using XFoil.
-2. **Model Architecture:** Evaluated multiple architectures, finding that a 2-hidden layer model provided the optimal balance between speed and precision.
-3. **Validation:** Compared DNN predictions against "True Values" to generate R² scores and error distribution histograms.
 
+![Data Generation](xfoil%20cp%20simulation.png)
 
+![Plotting Data](individual%20airfoil%20cp%20plot.png)
+
+![Grouping Data](Appended%20airfoil%20cp%20plots.png)
+
+3. **Model Architecture:** Evaluated multiple architectures, finding that a 2-hidden layer model provided the optimal balance between speed and precision. Evaluated performance using RMS (Root Mean Square) values.
+
+* **Optimal Choice:** A 2-hidden layer model provided the most stable convergence.
+
+![Evaluating Architectures](DNN%20performance%20analysis.png)
+
+### 4. Performance Benchmarking
+A key goal was operational efficiency. I benchmarked the DNN inference speed against traditional solvers to quantify the performance gain.
+
+![Testing Prediction Speed](Prediction%20speed%20evaluation.png)
+
+## 📈 Validation & Key Findings
+
+* **Speed Optimization:** The DNN provides inference results in milliseconds, compared to several seconds for traditional solvers—achieving a **95%+ reduction** in computation time.
+* **Architecture Selection:** Settled on a **2-hidden layer DNN** to prevent overfitting while maintaining high feature extraction capability for complex aerodynamic curves.
+* **Accuracy:** Initial RMS evaluations show strong alignment with XFoil data, proving that deep learning can act as a reliable surrogate for fluid dynamics.
 
 ## 📄 Project Documentation
 * [**Main Dissertation Report (PDF)**](Main%20Report.pdf) – Complete 100+ page thesis covering literature review, methodology, and results.
 * [**Project Logbook (PDF)**](Logbook.pdf) – A chronological record of the 20+ week research and development process.
-* [**Presentation & Viva (PPTX)**](Presentation%20and%20Viva.pptx) – Summary of the findings presented to the academic board.
-
 ---
 **Core Skills:** Artificial Neural Networks (ANN), Fluid Mechanics, Python Programming, Aerodynamic Analysis, Data Pre-processing.
