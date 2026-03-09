@@ -1,5 +1,3 @@
-# Using-DNNs-to-predict-pressure-coefficients-of-airfoils
-
 # Using Deep Neural Networks to Predict Pressure Coefficients of Airfoils
 **BEng (Hons) Mechanical Engineering Dissertation | Final Year Project**
 
